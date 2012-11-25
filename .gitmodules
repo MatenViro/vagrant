@@ -1,0 +1,12 @@
+[submodule "vagrant/puppet/modules/apache"]
+	path = vagrant/puppet/modules/apache
+	url = https://github.com/puppetlabs/puppetlabs-apache.git
+[submodule "vagrant/puppet/modules/stdlib"]
+	path = vagrant/puppet/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "vagrant/puppet/modules/firewall"]
+	path = vagrant/puppet/modules/firewall
+	url = https://github.com/puppetlabs/puppetlabs-firewall.git
+[submodule "vagrant/puppet/modules/mysql"]
+	path = vagrant/puppet/modules/mysql
+	url = https://github.com/MatenViro/puppetlabs-mysql.git
