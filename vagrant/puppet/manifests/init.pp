@@ -2,11 +2,13 @@ exec {'/usr/bin/apt-get update':}
 
 class {'apache':}
 class {'apache::mod::php':}
+apache::mod {'rewrite':}
 
 apache::vhost {'localhost':
 	priority => '10',
 	port => '80',
-	docroot => '/vagrant/source'
+	docroot => '/vagrant/source',
+	override => 'All'
 }
 
 
