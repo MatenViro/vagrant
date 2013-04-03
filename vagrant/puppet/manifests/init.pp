@@ -8,6 +8,8 @@ apache::vhost {'localhost':
 	priority => '10',
 	port => '80',
 	docroot => '/vagrant/source',
+	docroot_owner => 'vagrant',
+	docroot_group => 'vagrant',
 	override => 'All'
 }
 
