@@ -9,7 +9,7 @@ apache::vhost {'localhost':
 	port => '80',
 	docroot => '/vagrant/source',
 	docroot_owner => 'vagrant',
-	docroot_group => 'vagrant',
+	docroot_group => 'users',
 	override => 'All'
 }
 
